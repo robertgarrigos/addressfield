@@ -1211,3 +1211,10 @@ function _addressfield_get_format_callback($handler, $formats) {
     }
   }
 }
+
+function addressfield_countries_alter(&$countries) {
+
+$countries['CAT'] = t('Catalan Countries');
+sort($countries);
+// dpm($countries);
+}

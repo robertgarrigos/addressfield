@@ -123,6 +123,16 @@ function _addressfield_get_administrative_areas_defaults() {
     'SK' => t('Saskatchewan'),
     'YT' => t('Yukon Territory'),
   );
+  $administrative_areas['CAT'] = array(
+    'A' => 'Alacant',
+    'PM' => 'Illes Balears',
+    'B' => 'Barcelona',
+    'CS' => "Castelló",
+    'GI' => 'Girona',
+    'L' => "Lleida",
+    'T' => 'Tarragona',
+    'V' => 'Valencia',
+  );
   $administrative_areas['CL'] = array(
     'AI' => 'Aysén del General Carlos Ibáñez del Campo',
     'AN' => 'Antofagasta',
